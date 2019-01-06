@@ -1,7 +1,7 @@
 # name: Zish
 
 function _is_git_dirty
-  echo (command git status -s --ignore-submodules=dirty ^/dev/null)
+  echo (command git status -s --ignore-submodules=dirty 2> /dev/null)
 end
 
 function fish_prompt
@@ -19,7 +19,7 @@ function fish_prompt
   printf '%s' (prompt_pwd)
   set_color -o red
   printf '>'
-  
+
   echo
   set_color -o red
   printf '└─<'

@@ -8,6 +8,6 @@ Zhishen Wen's simple fun theme =)
 User, host, abbreviated path, and git branch info
 
 ## Right prompt
-exit code and time
+Exit code and time
 
 Enjoy!
